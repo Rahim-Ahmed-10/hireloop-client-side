@@ -49,8 +49,8 @@ const Navbar = () => {
 
                     {/* বোতামসমূহ */}
                     <div className="flex items-center gap-6 text-sm font-medium">
-                        <a href="#sign-in" className="text-[#6366f1] hover:text-[#4f46e5] transition-colors">Sign In</a>
-                        <a href="#get-started" className="bg-[#5c59f0] hover:bg-[#4a47e6] text-white px-5 py-2.5 rounded-xl font-semibold transition-all">
+                        <a href="/sign-in" className="text-[#6366f1] hover:text-[#4f46e5] transition-colors">Sign In</a>
+                        <a href="/get-started" className="bg-[#5c59f0] hover:bg-[#4a47e6] text-white px-5 py-2.5 rounded-xl font-semibold transition-all">
                             Get Started
                         </a>
                     </div>
@@ -82,8 +82,8 @@ const Navbar = () => {
                     <span className="w-full h-[1px] bg-neutral-850 my-1" aria-hidden="true"></span>
                     
                     <div className="flex flex-col gap-4 text-base font-medium">
-                        <a href="#sign-in" onClick={() => setIsOpen(false)} className="text-[#6366f1] hover:text-[#4f46e5] py-1">Sign In</a>
-                        <a href="#get-started" onClick={() => setIsOpen(false)} className="bg-[#5c59f0] hover:bg-[#4a47e6] text-white py-3 rounded-xl font-semibold block">
+                        <a href="/sign-in" onClick={() => setIsMenuOpen(false)} className="text-[#6366f1] hover:text-[#4f46e5] py-1">Sign In</a>
+                        <a href="/get-started" onClick={() => setIsMenuOpen(false)} className="bg-[#5c59f0] hover:bg-[#4a47e6] text-white py-3 rounded-xl font-semibold block">
                             Get Started
                         </a>
                     </div>
